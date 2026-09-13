@@ -10,6 +10,7 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("com/example")
-@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value =  "pretty,html:target/html_report.html,json:target/junit_report.xml")
+//@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value =  "pretty,html:target/html_report.html,json:target/junit_report.xml")
+@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, html:target/html_report.html, json:target/junit_report.xml, io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm")
 public class RunCucumberTest {
 }
