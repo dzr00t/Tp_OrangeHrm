@@ -10,7 +10,8 @@ public class HomePage {
     
     private By username = By.name("username");
     private By password = By.name("password");
-    private By btn_login = By.cssSelector(".orangehrm-login-button");    private By cadron_MyActions = By.xpath("//p[text()='My Actions']");
+    private By btn_login = By.cssSelector(".orangehrm-login-button");   
+    private By cadron_MyActions = By.xpath("//p[text()='My Actions']");
     private By cadron_QuickLaunch = By.xpath("//p[text()='Quick Launch']");
 
 
